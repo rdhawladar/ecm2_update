@@ -1,0 +1,166 @@
+/*!
+ * Start Bootstrap - Modern Business (http://startbootstrap.com/template-overviews/modern-business)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
+ */
+
+       /* Fixed navbar */
+body {
+    padding-top: 90px;
+}
+
+
+.middle-menu{
+    margin-left: 63.2%;
+}
+/* General sizing */
+ul.dropdown-lr {
+ /* width: 100%;*/
+}
+
+/* mobile fix */
+@media (max-width: 768px) {
+    .dropdown-lr h3 {
+        color: #eee;
+    }
+    .dropdown-lr label {
+        color: #eee;
+    }
+}
+
+.carousel {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.social{
+    background: #c96246;
+    padding: 29px;
+    display: inline;
+    margin-bottom: 40px;
+    margin: 27px auto;
+    border: 5px solid #fff;
+}
+
+.social h2{
+    background: #c03710;
+    padding: 16px;
+    display: inline-block;
+    border-radius: 12px;
+}
+
+
+.nav-cus { height: 15%; transition: height 0.3s;}
+header{margin-top: 1.5%; }
+
+.smaller{height: 7%; 
+        transition: 1ms;transition: height 0.3s;
+        }
+
+
+.carousel-text{
+    color: #000;
+    background: rgba(192, 54, 16, 0.61);
+}
+
+.sub-footer{
+    background: rgba(192, 54, 16, 0.77);
+    padding: 5%;
+    color: #000;
+    padding: 35px;
+    padding-left: 0%;
+    text-align: center;
+}
+
+footer{ padding: 1%;  }
+
+.row.test {
+    background: #c96245;
+    padding: 4%;
+    margin: 0 auto;
+    border-radius: .25rem;
+}
+
+
+/*drop down*/
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #4e0000;
+    min-width: 134px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 5;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #4e0000}
+
+.dropdown-content a:active{background: #4e0000;}
+
+.dropdown:hover .dropdown-content {
+    display: block; background: #4e0000;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+
+
+
+ /*dropdown menu style */
+
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -6px;
+    margin-left: -1px;
+    -webkit-border-radius: 0 6px 6px 6px;
+    -moz-border-radius: 0 6px 6px;
+    border-radius: 0 6px 6px 6px;
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+    display: block;
+}
+
+.dropdown-submenu>a:after {
+    display: block;
+    content: " ";
+    float: right;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #ccc;
+    margin-top: 5px;
+    margin-right: -10px;
+}
+
+.dropdown-submenu:hover>a:after {
+    border-left-color: #fff;
+}
+
+.dropdown-submenu.pull-left {
+    float: none;
+}
+
+.dropdown-submenu.pull-left>.dropdown-menu {
+    left: -100%;
+    margin-left: 10px;
+    -webkit-border-radius: 6px 0 6px 6px;
+    -moz-border-radius: 6px 0 6px 6px;
+    border-radius: 6px 0 6px 6px;
+}
+
